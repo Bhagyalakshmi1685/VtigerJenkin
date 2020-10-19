@@ -51,7 +51,7 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		}
 
-		wlib.waitForPageToLoad(driver);
+		//wlib.waitForPageToLoad(driver);
 		driver.get(URL);
 	}
 	
@@ -75,7 +75,7 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		}
 
-		wlib.waitForPageToLoad(driver);
+		//wlib.waitForPageToLoad(driver);
 		driver.get(URL);
 		
 
